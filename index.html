@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Apostila JavaScript Progressivo</title>
+   
+ </head>
+ <body>
+    
+    <h1>tabuada</h1>
+
+    <script type="text/javascript" src="main.js"> </script>
+    
+    <br>
+    <hr>
+
+    <h1>Criando um alerta no browser</h1>
+    <button onclick="Alerta()">Abrir o Alerta</button>
+
+    <br>
+    <hr>
+
+    <h1>Imagem</h1>
+    <img src="https://i.pinimg.com/564x/5d/88/2f/5d882faf0bb786385fab50ca2208da0f.jpg" onmouseleave="voltarImagem()" onmouseover="alterarImagem()" id="alt" value="tr" width="200" height="300">
+    
+    <br>
+    <h1>CONHECIMENTOS GERAIS</h1>
+    <!--PERGUNTA 1-->
+    <div>De quem é a famosa frase “Penso, logo existo”?</div><!--resposta não-->
+    <input type="text" id="entrada1">
+    <button onclick="quiz()">Enviar</button>
+    <div id="resp1"></div>
+
+    <br>
+
+    <!--PERGUNTA 2-->
+    <div>Qual a fórmula química da aula??</div><!--resposta não-->
+    <input type="text" id="entrada2">
+    <button onclick="quiz2()">Enviar</button>
+    <div id="resp2"></div>
+
+    <br>
+    <button onclick="verificar()">VERIFICAR PONTUAÇÃO</button>
+    <div id="mensagem">pontuação</div>
+
+    <br><br>
+    <h1>Calculo do IMC - Índice de Massa Corpórea</h1>
+    <p> Nome: <input id="nome" type="text" placeholder="insira seu nome"></p>
+    <p> Peso: <input id="peso" type="number" placeholder="insira seu peso"></p>
+    <p> Altura: <input id="altura" type="number" placeholder="insira sua altura"></p>
+    <button onclick="carregar()">ENVIAR</button>
+    <div id="valores"></div>
+    <div id="msg"></div>
+
+    
+ </body>
+</html>
